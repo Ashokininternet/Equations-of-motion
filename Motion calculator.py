@@ -2,6 +2,7 @@
 print("Hello welcome to Physics Calculator")
 print("Enter the appropriate values")
 print("If you dont have value for particular item put '0' as its value")
+print("You only need to enter any one from hour, minute, second")
 
 ok = input("Type 'ok' and hit enter to continue ('ok' in small): ")
 
@@ -28,7 +29,7 @@ if ok == 'ok':
     def time():
         print(s/v)
     def acceleration():
-        print((v-u)/total_seconds)  # Corrected parentheses
+        print((v-u)/total_seconds) 
 
 
     select = input("speed=s,velocity=v,displacement=d,time=t,acceleration=a:")
@@ -44,4 +45,4 @@ if ok == 'ok':
         acceleration()
 
 else :
-    print("Sorry something went wrong")
+    print("error occurred")
